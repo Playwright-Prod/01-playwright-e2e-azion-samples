@@ -1,0 +1,60 @@
+{
+  "name": "EdgeApp05092024155002-FQLE4",
+  "bucket": "EdgeApp05092024155002-FQLE4",
+  "preset": "next",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240509185146",
+  "not-first-run": true,
+  "function": {
+    "id": 23147,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 22690,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1715283935,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1715282469,
+    "name": "EdgeApp05092024155002-FQLE4",
+    "domain_name": "k4z8kej1v1.map.azionedge.net",
+    "url": "https://k4z8kej1v1.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 132860,
+      "origin-key": "af335d5f-003e-4343-ae79-31d9216f3197",
+      "name": "EdgeApp05092024155002-FQLE4_single"
+    },
+    {
+      "origin-id": 132861,
+      "origin-key": "c6e62fef-22ca-485e-8389-33a33e4a032e",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 250969,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 250970,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 250971,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
